@@ -1,0 +1,200 @@
+repo_name: naywintx/ForkHub
+report_id: 359e5aff760caaef2d6a8f5a9b58cac9
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-21T02:34:32+00:00'
+requested_by: jonan
+provider: github
+branch: master
+detected_tools_count: 15
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/naywintx/ForkHub
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/naywintx/ForkHub
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/naywintx/ForkHub
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  version: '27.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/naywintx/ForkHub/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Jon Ander Peñalba
+  last_updated_on: 2018-03-21 18:45:18.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/naywintx/ForkHub
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/naywintx/ForkHub/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Jon Ander Peñalba
+  last_updated_on: 2014-11-25 23:01:07.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  version: '8.1'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: https://github.com/naywintx/ForkHub/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Jon Ander Peñalba
+  last_updated_on: 2018-03-21 18:45:18.000000000 Z
+- name: Moshi
+  website_url: https://github.com/square/moshi
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10862/82592.png
+  detection_source_url: https://github.com/naywintx/ForkHub/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Jon Ander Peñalba
+  last_updated_on: 2017-06-22 16:21:38.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: '2.7'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/ForkHub/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Jon Ander Peñalba
+  last_updated_on: 2018-03-21 18:45:18.000000000 Z
+  vulnerabilities:
+  - name: Deserialization of Untrusted Data in Gson
+    cve_id: CVE-2022-25647
+    cve_url: https://github.com/advisories/GHSA-4jrv-ppp4-jm57
+    detected_date: May 21
+    severity: high
+    first_patched: 2.8.9
+- name: com.google.inject.extensions:guice-assistedinject
+  description: Guice
+  version: '3.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/ForkHub/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Jon Ander Peñalba
+  last_updated_on: 2018-04-04 15:03:20.000000000 Z
+- name: com.squareup.okhttp3:okhttp-urlconnection
+  description: 'Null'
+  version: 3.9.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/ForkHub/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Jon Ander Peñalba
+  last_updated_on: 2018-03-21 18:45:18.000000000 Z
+- name: com.squareup.picasso:picasso
+  description: A powerful image downloading and caching library for Android
+  version: 2.5.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/ForkHub/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Jon Ander Peñalba
+  last_updated_on: 2018-03-21 18:45:18.000000000 Z
+- name: com.squareup.retrofit2:converter-moshi
+  description: Type-safe HTTP client for Android and Java by Square, Inc
+  version: 2.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/ForkHub/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Jon Ander Peñalba
+  last_updated_on: 2018-03-21 18:45:18.000000000 Z
+- name: org.eclipse.mylyn.github:org.eclipse.egit.github.core
+  description: Sonatype helps open source projects to set up Maven repositories on
+    https://oss.sonatype.org/
+  version: 4.4.0
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/ForkHub/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Jon Ander Peñalba
+  last_updated_on: 2018-03-21 18:44:31.000000000 Z
+- name: org.roboguice:roboguice
+  description: A framework for using Google Guice dependency injection in Android
+  version: '2.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/ForkHub/blob/master/app/build.gradle
+  detection_source: app/build.gradle
+  last_updated_by: Jon Ander Peñalba
+  last_updated_on: 2016-07-08 10:41:49.000000000 Z
